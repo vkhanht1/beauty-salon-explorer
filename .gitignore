@@ -1,0 +1,12 @@
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# Backend
+backend/.gradle/
+backend/build/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
