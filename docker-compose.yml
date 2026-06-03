@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend/salons.db:/app/salons.db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:sqlite:/app/salons.db
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.sqlite.JDBC
+
+  data-collector:
+    build:
+      context: ./data-collector
+    volumes:
+      - ./data-collector:/app
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
