@@ -3,7 +3,7 @@
 A comprehensive Full-Stack web application designed to collect, explore, and manage hair and beauty salon data across various districts in Warsaw. The system features an automated data layer, a robust REST API backend, and an interactive, single-page frontend interface that enables seamless data browsing and manual modifications.
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/vkhanht1/beauty-salon-explorer/beauty-cicd.yml?branch=main&label=CI-CD%20Pipeline&logo=github)
-![GitHub License](https://img.shields.io/github/license/vkhanht1/beauty-salon-explorer?color=blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
